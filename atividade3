@@ -8,6 +8,9 @@
         .red{
             color: red;
         }
+        .mes{
+            text-align: center;
+        }
 
     </style>
 </head>
@@ -52,7 +55,7 @@
 <p>2)</p>
     <table border="1">
         <tr>
-            <td colspan="7" >JANEIRO</td>
+            <td class="mes" colspan="7" >JANEIRO</td>
         </tr>
         <tr>
             <th>D</th>
@@ -110,6 +113,25 @@
         </tr>
     </table>
 <p>3)</p>
+<p><strong>MANUTENÇÃO DE USUÁRIOS DO SISTEMAS INTERNO</strong></p>
+<p>Login
+    <input type="text" name="Login" size="15" maxlength="30">
+</p>
+<p>Senha
+    <input type="password" name="Login" size="15" maxlength="30">
+</p>
+<form>
+    <label for="Status.id">Status</label>
+    <input type="text" name="status" id="status.id" list="status">
+    <datalist id="status">
+        <option value="inativo" label="inativo"></option>
+        <option value="ausente" label="ausente"></option>
+    </datalist>
+    
+</form>
 
+    
+
+</p>
 </body>
 </html>
